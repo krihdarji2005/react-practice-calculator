@@ -1,0 +1,31 @@
+
+.buttonsContainer{
+  /* margin: 8px ; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+
+
+}
+.button{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #1d1c1c;
+  /* border: 5px solid rgb(255, 255, 255); */
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: white;
+}
+.button:hover{
+  background-color: #333333;
+}
+.button:active{
+  background-color: #535252;
+  width: 70px;
+  height: 70px;
+}
+.error{
+  color: rgb(8, 233, 8);
+}

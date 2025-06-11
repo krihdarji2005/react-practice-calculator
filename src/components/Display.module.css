@@ -1,0 +1,14 @@
+.display{
+    /* margin: 10px ; */
+    margin-bottom: 25px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    
+    border: 2px solid rgb(178, 178, 178);
+    background-color: #353535;
+
+}

@@ -1,0 +1,27 @@
+
+.calculator {
+  background-color: #0e0e0e;
+  border: 1px solid rgb(167, 165, 165);
+  border-radius: 20px;
+  padding: 15px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  /* margin: 100px auto; */
+  margin: 30px auto;
+
+}
+.credit {
+  font-family: 'VT323', monospace; /* Pixel font */
+  color: #b6b8b6; /* Green LCD-like color */
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Glow effect */
+  text-align: center;
+}
+.credit:hover {
+  opacity: 1;
+ 
+  color: #00ff00; /* Green LCD-like color */
+
+}
